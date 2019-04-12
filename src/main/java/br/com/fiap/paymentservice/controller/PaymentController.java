@@ -2,6 +2,7 @@ package br.com.fiap.paymentservice.controller;
 
 import br.com.fiap.paymentservice.dao.PaymentDao;
 import br.com.fiap.paymentservice.model.Payment;
+import io.swagger.annotations.Api;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
@@ -9,6 +10,7 @@ import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
 import java.net.URI;
 
 @RestController
+@Api(value = "Payment", description = "a list of payments")
 public class PaymentController {
 
     private Payment[] payments;
