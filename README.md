@@ -3,13 +3,13 @@ Spring microservice
 
 ## GET
 curl -X GET \
-  http://localhost:8080/payments/1 \
+  http://localhost:9091/payments/1 \
   -H 'cache-control: no-cache' \
   -H 'postman-token: baae12cc-6dda-8304-1f55-a89cb8af01d3'
   
 ## POST
 curl -X POST \
-  http://localhost:8080/payments \
+  http://localhost:9091/payments \
   -H 'cache-control: no-cache' \
   -H 'content-type: application/json' \
   -H 'postman-token: 0cdd711b-a4a0-1b70-6a94-30a2fa0debdc' \
@@ -23,7 +23,7 @@ curl -X POST \
 
 ## PUT
 curl -X PUT \
-  http://localhost:8080/payments \
+  http://localhost:9091/payments \
   -H 'cache-control: no-cache' \
   -H 'content-type: application/json' \
   -H 'postman-token: 9420ac82-425e-35f7-da7d-8dc2350ddeb2' \
@@ -37,7 +37,7 @@ curl -X PUT \
 
 ## DELETE
 curl -X DELETE \
-  http://localhost:8080/payments/2 \
+  http://localhost:9091/payments/2 \
   -H 'cache-control: no-cache' \
   -H 'content-type: application/json' \
   -H 'postman-token: 2809401a-5c6d-3440-996b-38a8b50f6ca7'
